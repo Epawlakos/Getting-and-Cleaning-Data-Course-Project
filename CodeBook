@@ -1,10 +1,10 @@
-#Labels
+# Labels
 
 subject - ID of the test subject
 activity - Type of activity preformed
 
 
-#Features
+# Features
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
@@ -28,7 +28,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-#Activity Labels
+# Activity Labels
 1 - Walking
 2 - Walking Upstairs
 3 - Walking Downstairs
