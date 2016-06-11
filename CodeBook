@@ -1,3 +1,7 @@
+## SOURCE
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ## Labels
 
 subject - ID of the test subject
@@ -6,10 +10,20 @@ activity - Type of activity preformed
 
 ## Features
 
+The experiments have been carried out with a group of 30 volunteers. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+wearing a smartphone (Samsung Galaxy S II) on the waist. 
+Refer to the README.txt in the original dataset for futher descriptions of the feature selection
+======================================
+
+Note: 't' indicates time, and 'f' indicates frequency domain signals
+
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-Of each of the following, the mean and std is taken: 
+The set of variables that were kept for the assignment are created 
+by taking the mean and std() of the following features:
+
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
