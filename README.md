@@ -14,4 +14,4 @@ This script downloads and extracts the required data for the analysis.
 After merging the data sets, labels are added, and only columns involving the mean or std are kept. 
 
 The script returns a tidy data set with the means of the desired columns. 
-(Note: this data set is saved as 'tidy.txt' and is included in the repository)
+(Note: this data set is saved as 'TidyData.txt' and is included in the repository)
